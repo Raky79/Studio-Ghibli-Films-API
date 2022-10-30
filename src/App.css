@@ -1,5 +1,44 @@
 .App {
   text-align: center;
+  background-color: #99FEFF;
+  font-family: papyrus;
+}
+
+.button {
+  border: 2px solid #B983FF;
+    background: #C1FFD7 ;
+    color: #B983FF;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.heading {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.select {
+  background-color: #D2DAFF;
+}
+
+.film {
+  font-size: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+}
+
+.favourite {
+  font-size: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
 }
 
 .App-logo {
@@ -11,6 +50,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+ul > li {
+  list-style-type: none;
 }
 
 .App-header {
